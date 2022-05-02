@@ -20,7 +20,7 @@ function openDb(): Promise<Record<string, any>> {
  * @param db 
  * @returns 
  */
-function saveDb(db: Record<string, any>): Promise<void> {
+function saveDb(db: Record<string,  any>): Promise<void> {
     return jsonfile.writeFile(dbFilePath, db);
 }
 
