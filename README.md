@@ -1,6 +1,11 @@
 # Express 템플릿
 
+# Install global npm package
+- npm i -D eslint
+- npm i -D prettier
+- npm i -D eslint-config-prettier eslint-plugin-prettier
 # update Swagger command
+
 - npm run swagger
 
 # .gitignore
@@ -12,7 +17,7 @@
 - swagger-autogen: https://www.npmjs.com/package/swagger-autogen
 
 # lastest
-- 2022/04/26
+- 2022/04/26d
 
 # Baseon
 - express-generator-typescript on npm : https://www.npmjs.com/package/express-generator-typescript
